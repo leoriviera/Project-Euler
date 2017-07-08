@@ -2,7 +2,7 @@
 self_powers_total = 0
 last_ten_digits = ''
 
-for n in range(1, 1001):
+for n in range(1, 1000 + 1):
     self_powers_total += n ** n
 
 self_powers_total = str(self_powers_total)

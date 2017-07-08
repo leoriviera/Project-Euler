@@ -11,5 +11,4 @@ while len(primes) < target - 1:
             primes.append(n)
             n += 1
 
-prime_index = len(primes) - 1
-print(primes[prime_index])
+print(primes[len(primes) - 1])
