@@ -3,7 +3,7 @@ number = 73167176531330624919225119674426574742355349194934969835203127745063262
 possible_adjacent_combinations, multiplied_digits = [], []
 
 number = str(number)
-n = len(number) - 1 
+n = len(number) - 1
 
 while True:
     if n - 11 > 0:

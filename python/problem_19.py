@@ -13,7 +13,8 @@ def month_length_calc(m, y):
     else:
         return 31
 
-sunday_count, month_day = 0, 1 
+
+sunday_count, month_day = 0, 1
 
 for year in range(1900, 2000 + 1):
     for month in range(1, 12 + 1):
@@ -22,5 +23,5 @@ for year in range(1900, 2000 + 1):
             month_day += 1
             if month_day % 7 == 0 and each_day == 1 and year > 1900:
                 sunday_count += 1
-    
+
 print(sunday_count)

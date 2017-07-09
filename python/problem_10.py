@@ -9,13 +9,11 @@ while True:
             break
         elif divisor == n - 1 and n < target:
             primes.append(n)
-            print(len(primes), n)
             n += 1
 
     if n > target:
         break
 
-for prime_index in range(0, len(primes)):
-    answer += primes[prime_index] 
+answer = sum(prime_num for prime_num in primes)
 
 print(answer)

@@ -1,4 +1,4 @@
-#Solved correctly
+# Solved correctly
 import math as maths
 
 pythagorean_triplet = []
@@ -19,7 +19,8 @@ for a in range(1, 1000):
             break
 
     if len(pythagorean_triplet) == 3:
-        pythagorean_triplet_product = pythagorean_triplet[0] * pythagorean_triplet[1] * pythagorean_triplet[2]
+        pythagorean_triplet_product = pythagorean_triplet[0] * \
+            pythagorean_triplet[1] * pythagorean_triplet[2]
         break
 
 print(pythagorean_triplet_product)

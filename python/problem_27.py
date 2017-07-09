@@ -2,12 +2,14 @@
 max_a, max_b = 0, 0
 max_consecutive_prime = 0
 
+
 def is_prime(num):
     for divisor in range(2, num):
         if num % divisor == 0:
             return False
         elif divisor == num - 1:
             return True
+
 
 for a in range(-1000, 1000 + 1):
     for b in range(-999, 1000):

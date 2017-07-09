@@ -999,13 +999,12 @@ base_exponent = [
     [672276, 515708],
     [325361, 545187],
     [172115, 573985],
-    [13846,725685]
+    [13846, 725685]
 ]
 
 base_exponent_sorted_results, base_exponent_unsorted_results = [], []
 
 for number_index in range(0, len(base_exponent)):
-    print(number_index)
     base_exponent_base = base_exponent[number_index][0]
     base_exponent_exponent = base_exponent[number_index][1]
     power = base_exponent_base ** base_exponent_exponent
@@ -1015,6 +1014,7 @@ for number_index in range(0, len(base_exponent)):
 
 base_exponent_sorted_results.sort()
 
-largest_power_index = base_exponent_unsorted_results.index(base_exponent_sorted_results[len(base_exponent_sorted_results) - 1])
+largest_power_index = base_exponent_unsorted_results.index(
+    base_exponent_sorted_results[len(base_exponent_sorted_results) - 1])
 
 print(largest_power_index + 1)

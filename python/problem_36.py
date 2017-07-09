@@ -1,16 +1,14 @@
 # Solved correctly
 def palindrome_det(possible_palindrome):
-        digit_list, digit_reversed = [], []
-        digit_list = list(str(possible_palindrome))
+    digit_reversed = [], []
+    digit_list = list(str(possible_palindrome))
 
-        list_length = len(digit_list) - 1
-        for digit in range(list_length, -1, -1):
-            digit_reversed.append(digit_list[digit])    
+    digit_reversed = list(digit for digit in reversed(digit_list))
 
-        if digit_list == digit_reversed:
-            return True
-        else:
-            return False
+    if digit_list == digit_reversed:
+        return True
+    else:
+        return False
 
 total = 0
 

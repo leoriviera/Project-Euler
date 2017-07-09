@@ -1,6 +1,6 @@
 # Solved correctly
 sum_square, square_sum = 0, 0
-total =  0 
+total = 0
 
 for num in range(1, 100 + 1):
     total += num
