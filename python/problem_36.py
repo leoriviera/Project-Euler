@@ -1,4 +1,6 @@
 # Solved correctly
+total = 0
+
 def palindrome_det(possible_palindrome):
     digit_reversed = [], []
     digit_list = list(str(possible_palindrome))
@@ -10,7 +12,6 @@ def palindrome_det(possible_palindrome):
     else:
         return False
 
-total = 0
 
 for n in range(0, 1000000):
     n_palindrome = palindrome_det(n)
