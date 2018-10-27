@@ -1,7 +1,7 @@
 # Solved correctly
-import math as maths
+import math
 
-one_hundred_bang, total = maths.factorial(100), 0
+one_hundred_bang, total = math.factorial(100), 0
 
 one_hundred_bang_string = str(one_hundred_bang)
 

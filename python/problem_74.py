@@ -1,4 +1,4 @@
-import math as maths
+import math
 
 chain_count = 0
 
@@ -12,7 +12,7 @@ for n in range(1, 1000000):
 
         for digit_index in range(0, len(string)):
             digit = int(string[digit_index])
-            factorial_sum += maths.factorial(digit)
+            factorial_sum += math.factorial(digit)
 
         if factorial_sum not in terms:
             terms.append(factorial_sum)

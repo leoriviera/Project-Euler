@@ -1,5 +1,5 @@
 # Solved correctly
-import math as maths
+import math
 
 pythagorean_triplet = []
 
@@ -7,7 +7,7 @@ for a in range(1, 1000):
     a_squared = a ** 2
     for b in range(1, 1000):
         b_squared = b ** 2
-        c = maths.sqrt(a_squared + b_squared)
+        c = math.sqrt(a_squared + b_squared)
         c_integer = c.is_integer()
 
         if c_integer and a + b + c == 1000:
