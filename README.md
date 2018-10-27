@@ -9,7 +9,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | -------------- | ------------- | ----------------- | ----------------- |
 | [Problem 1](https://projecteuler.net/problem=1) | Multiples of 3 and 5 | 5% | :white_check_mark: |
 | [Problem 2](https://projecteuler.net/problem=2) | Even Fibonacci numbers | 5% | :white_check_mark: |
-| [Problem 3](https://projecteuler.net/problem=3) | Largest prime factor | 5% | :x: |
+| [Problem 3](https://projecteuler.net/problem=3) | Largest prime factor | 5% | :white_check_mark: |
 | [Problem 4](https://projecteuler.net/problem=4) | Largest palindrome product | 5% | :white_check_mark: |
 | [Problem 5](https://projecteuler.net/problem=5) | Smallest multiple | 5% | :white_check_mark: |
 | [Problem 6](https://projecteuler.net/problem=6) | Sum square difference | 5% | :white_check_mark: |
@@ -147,7 +147,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 138](https://projecteuler.net/problem=138) | Special isosceles triangles | 45% | :x: |
 | [Problem 139](https://projecteuler.net/problem=139) | Pythagorean tiles | 50% | :x: |
 | [Problem 140](https://projecteuler.net/problem=140) | Modified Fibonacci golden nuggets | 55% | :x: |
-| [Problem 141](https://projecteuler.net/problem=141) | Investigating progressive numbers, n, which are also square | 60% |:x:] |
+| [Problem 141](https://projecteuler.net/problem=141) | Investigating progressive numbers, n, which are also square | 60% | :x: |
 | [Problem 142](https://projecteuler.net/problem=142) | Perfect Square Collection | 45% | :x: |
 | [Problem 143](https://projecteuler.net/problem=143) | Investigating the Torricelli point of a triangle | 65% | :x: |
 | [Problem 144](https://projecteuler.net/problem=144) | Investigating multiple reflections of a laser beam | 50% | :x: |
