@@ -1,19 +1,25 @@
 # Solved correctly
-products, palindrome_products = [], []
+def int_palindrome_check(integer):
+    # Convert the integer to a string
+    string = str(integer)
+    # Reverse the string and join it back together
+    reversed_string = ''.join(reversed(string))
+    # If two strings are equal...
+    if(string == reversed_string):
+        # Return true
+        return True
+    return False
 
-for factor_1 in range(100, 1000):
-    for factor_2 in range(100, 1000):
-        products.append(factor_1 * factor_2)
+largest_product = 0
+# With one factor between 100 and 1000...
+for factor_one in range(100, 999 + 1):
+    # And with a second factor between 100 and 1000...
+    for factor_two in range(factor_one, 999 + 1):
+        # Calculate the product of the two factors
+        product = factor_one * factor_two
+        # If the product is a palindrome and is larger than the largest product...
+        if(int_palindrome_check(product) and product > largest_product):
+            # Set the largest product to the current product
+            largest_product = product
 
-products = list(set(products))
-
-for palindrome_index in range(0, len(products)):
-    possible_palindrome = products[palindrome_index]
-    digit_list = list(str(possible_palindrome))
-
-    digit_reversed = [digit for digit in reversed(digit_list)]
-
-    if digit_list == digit_reversed:
-        palindrome_products.append(possible_palindrome)
-
-print(palindrome_products[len(palindrome_products) - 1])
+print(largest_product)
