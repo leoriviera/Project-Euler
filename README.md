@@ -1,4 +1,5 @@
 # Project Euler
+
 Solving Project Euler Problems!
 
 ## Language League Table
@@ -34,7 +35,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 25](https://projecteuler.net/problem=25) | 1000-digit Fibonacci number | 5% | :white_check_mark: |
 | [Problem 26](https://projecteuler.net/problem=26) | Reciprocal cycles | 5% | :x: |
 | [Problem 27](https://projecteuler.net/problem=27) | Quadratic primes | 5% | :white_check_mark: |
-| [Problem 28](https://projecteuler.net/problem=28) | Number spiral diagonals | 5% | :x: |
+| [Problem 28](https://projecteuler.net/problem=28) | Number spiral diagonals | 5% | :white_check_mark: |
 | [Problem 29](https://projecteuler.net/problem=29) | Distinct powers | 5% | :white_check_mark: |
 | [Problem 30](https://projecteuler.net/problem=30) | Digit fifth powers | 5% | :white_check_mark: |
 | [Problem 31](https://projecteuler.net/problem=31) | Coin sums | 5% | :x: |
@@ -75,7 +76,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 66](https://projecteuler.net/problem=66) | Diophantine equation | 25% | :x: |
 | [Problem 67](https://projecteuler.net/problem=67) | Maximum path sum II | 5% | :x: |
 | [Problem 68](https://projecteuler.net/problem=68) | Magic 5-gon ring | 25% | :x: |
-| [Problem 69](https://projecteuler.net/problem=69) | Totient maximum | 10% | :x: |
+| [Problem 69](https://projecteuler.net/problem=69) | Totient maximum | 10% | :white_check_mark: |
 | [Problem 70](https://projecteuler.net/problem=70) | Totient permutation | 20% | :x: |
 | [Problem 71](https://projecteuler.net/problem=71) | Ordered fractions | 10% | :x: |
 | [Problem 72](https://projecteuler.net/problem=72) | Counting fractions | 20% | :x: |
