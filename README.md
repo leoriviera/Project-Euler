@@ -19,7 +19,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 9](https://projecteuler.net/problem=9) | Special Pythagorean triplet | 5% | :white_check_mark: |
 | [Problem 10](https://projecteuler.net/problem=10) | Summation of primes | 5% | :white_check_mark: |
 | [Problem 11](https://projecteuler.net/problem=11) | Largest product in a grid | 5% | :white_check_mark: |
-| [Problem 12](https://projecteuler.net/problem=12) | Highly divisible triangular number | 5% | :x: |
+| [Problem 12](https://projecteuler.net/problem=12) | Highly divisible triangular number | 5% | :white_check_mark: |
 | [Problem 13](https://projecteuler.net/problem=13) | Large sum | 5% | :white_check_mark: |
 | [Problem 14](https://projecteuler.net/problem=14) | Longest Collatz sequence | 5% | :white_check_mark: |
 | [Problem 15](https://projecteuler.net/problem=15) | Lattice paths | 5% | :white_check_mark: |
