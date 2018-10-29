@@ -1,5 +1,5 @@
 # Solved correctly
-def int_palindrome_check(integer):
+def is_palindrome(integer):
     # Convert the integer to a string
     string = str(integer)
     # Reverse the string and join it back together
@@ -10,6 +10,7 @@ def int_palindrome_check(integer):
         return True
     return False
 
+
 largest_product = 0
 # With one factor between 100 and 1000...
 for factor_one in range(100, 999 + 1):
@@ -18,7 +19,7 @@ for factor_one in range(100, 999 + 1):
         # Calculate the product of the two factors
         product = factor_one * factor_two
         # If the product is a palindrome and is larger than the largest product...
-        if(int_palindrome_check(product) and product > largest_product):
+        if(is_palindrome(product) and product > largest_product):
             # Set the largest product to the current product
             largest_product = product
 

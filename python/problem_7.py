@@ -1,5 +1,6 @@
 # Solved correctly
-import random, math
+import random
+import math
 
 # Primality test adapted from the Brilliant.org wiki entry on primality testing, found at https://brilliant.org/wiki/prime-testing/
 # Determine primailty using the Fermat Primality Test
@@ -11,6 +12,7 @@ def is_prime(n):
         if(pow(a, n-1, n) != 1):
             return False
     return True
+
 
 # Set number of primes to 0.
 count = 0

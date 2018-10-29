@@ -1,5 +1,6 @@
 # Solved correctly
-import random, math
+import random
+import math
 
 # Primality test adapted from the Brilliant.org wiki entry on primality testing, found at https://brilliant.org/wiki/prime-testing/
 # Determine primailty using the Fermat Primality Test
