@@ -109,7 +109,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 99](https://projecteuler.net/problem=99) | Largest exponential | 10% | :white_check_mark: |
 | [Problem 100](https://projecteuler.net/problem=100) | Arranged probability | 30% | :x: |
 | [Problem 101](https://projecteuler.net/problem=101) | Optimum polynomial | 35% | :x: |
-| [Problem 102](https://projecteuler.net/problem=102) | Triangle containment | 15% | :x: |
+| [Problem 102](https://projecteuler.net/problem=102) | Triangle containment | 15% | :white_check_mark: |
 | [Problem 103](https://projecteuler.net/problem=103) | Special subset sums: optimum | 45% | :x: |
 | [Problem 104](https://projecteuler.net/problem=104) | Pandigital Fibonacci ends | 25% | :x: |
 | [Problem 105](https://projecteuler.net/problem=105) | Special subset sums: testing | 45% | :x: |
