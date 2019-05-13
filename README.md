@@ -1,6 +1,7 @@
 # Project Euler
 
-Solving Project Euler Problems!
+Solving Project Euler Problems using programming!
+![Project Euler Badge](https://projecteuler.net/profile/leoriviera.png)
 
 ## Language League Table
 
