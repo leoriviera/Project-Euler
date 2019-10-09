@@ -1,10 +1,11 @@
 # Solved correctly
 import random
-import math
 
 # Primality test adapted from the Brilliant.org wiki entry on primality testing, found at https://brilliant.org/wiki/prime-testing/
 # Determine primailty using the Fermat Primality Test
 def is_prime(n):
+    if(n == 1):
+        return False
     if(n == 2):
         return True
     for i in range(50):
@@ -13,20 +14,17 @@ def is_prime(n):
             return False
     return True
 
-
-# Set number of primes to 0.
+# Set number of primes, and prime number, to 0
 count = 0
-# Start counting primes from 2 (as this is_prime() function cannot handle 1).
-n = 2
+prime = 0
 
-while True:
-    # If the integer n is prime, increase the prime count by 1.
-    if(is_prime(n)):
+# While there are fewer than 10001 primes...
+while (count < 10001):
+    # Add one to the prime number
+    prime += 1
+    # If the integer n is prime...
+    if(is_prime(prime)):
+        # Increase the prime count by 1
         count += 1
-    # If the number of counted primes reaches 10001...
-    if(count == 10001):
-        # Print the prime and break the while loop.
-        print(n)
-        break
-    # If not, increase integer n by one and repeat.
-    n += 1
+
+print(prime)
