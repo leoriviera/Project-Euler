@@ -55,7 +55,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 44](https://projecteuler.net/problem=44) | Pentagon numbers | 5% | :x: |
 | [Problem 45](https://projecteuler.net/problem=45) | Triangular, pentagonal, and hexagonal | 5% | :white_check_mark: |
 | [Problem 46](https://projecteuler.net/problem=46) | Goldbach's other conjecture | 5% | :x: |
-| [Problem 47](https://projecteuler.net/problem=47) | Distinct primes factors | 5% | :x: |
+| [Problem 47](https://projecteuler.net/problem=47) | Distinct primes factors | 5% | :white_check_mark: |
 | [Problem 48](https://projecteuler.net/problem=48) | Self powers | 5% | :white_check_mark: |
 | [Problem 49](https://projecteuler.net/problem=49) | Prime permutations | 5% | :x: |
 | [Problem 50](https://projecteuler.net/problem=50) | Consecutive prime sum | 5% | :x: |
@@ -100,7 +100,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 89](https://projecteuler.net/problem=89) | Roman numerals | 20% | :x: |
 | [Problem 90](https://projecteuler.net/problem=90) | Cube digit pairs | 40% | :x: |
 | [Problem 91](https://projecteuler.net/problem=91) | Right triangles with integer coordinates | 25% | :x: |
-| [Problem 92](https://projecteuler.net/problem=92) | Square digit chains | 5% | :x: |
+| [Problem 92](https://projecteuler.net/problem=92) | Square digit chains | 5% | :white_check_mark: |
 | [Problem 93](https://projecteuler.net/problem=93) | Arithmetic expressions | 35% | :x: |
 | [Problem 94](https://projecteuler.net/problem=94) | Almost equilateral triangles | 35% | :x: |
 | [Problem 95](https://projecteuler.net/problem=95) | Amicable chains | 30% | :x: |
