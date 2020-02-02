@@ -1,10 +1,10 @@
 # Solved correctly
 import math
 
-one_hundred_bang, total = math.factorial(100), 0
+# Calculate 100! and convert to a string
+one_hundred_bang = str(math.factorial(100))
 
-one_hundred_bang_string = str(one_hundred_bang)
-
-total = sum(int(digit) for digit in one_hundred_bang_string)
+# Calculate the sum of the digits in the string
+total = sum(int(digit) for digit in one_hundred_bang)
 
 print(total)
