@@ -1,8 +1,8 @@
 # Solved correctly
-two_to_thousand, total = 2 ** 1000, 0
+# Calculate 2^1000 and convert it to a string
+two_to_thousand, total = str(2 ** 1000), 0
 
-two_to_thousand_string = str(two_to_thousand)
-
-total = sum(int(digit)for digit in two_to_thousand_string)
+# Add each of the digits to find the total
+total = sum(int(digit) for digit in two_to_thousand)
 
 print(total)

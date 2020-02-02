@@ -1,22 +1,28 @@
 # Solved correctly
-chain_length_unsorted, chain_length_sorted = [], []
+longest_length = 0
+longest_start = 0
 
+# For each number between 1 and one million...
 for i in range(1, 1000000):
+    # Take a copy of each number
     n = i
+    # Set the length of the chain to 1
     length = 1
+    # While n is not 1...
     while n != 1:
+        # If the number is even...
         if n % 2 == 0:
+            # Floor divide the number by 2
             n /= 2
+            # Increase the length of the chain by 1
             length += 1
+        # Otherwise, if the number is odd...
         else:
-            n *= 3
-            n += 1
+            n = ((3 * n) + 1)
             length += 1
-    chain_length_sorted.append(length)
-    chain_length_unsorted.append(length)
+    if(length > longest_length):
+        longest_length = length
+        longest_start = i
 
-chain_length_sorted.sort()
-highest_collatz_chain = chain_length_sorted[len(chain_length_sorted) - 1]
-starting_n = chain_length_unsorted.index(highest_collatz_chain) + 1
 
-print(starting_n)
+print(longest_start)

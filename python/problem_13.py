@@ -1,4 +1,5 @@
 # Solved correctly
+# Store all numbers in a massive list
 numbers = [37107287533902102798797998220837590246510135740250,
            46376937677490009712648124896970078050417018260538,
            74324986199524741059474233309513058123726617309629,
@@ -99,10 +100,11 @@ numbers = [37107287533902102798797998220837590246510135740250,
            72107838435069186155435662884062257473692284509516,
            20849603980134001723930671666823555245252804609722,
            53503534226472524250874054075591789781264330331690]
-first_ten_digits, total = '', 0
 
+# Find the total by summing each number in the list
 total = str(sum(each for each in numbers))
 
-first_ten_digits = ''.join(total[letter] for letter in range(0, 10))
+# Extract the first ten digits using string manipulation
+first_ten_digits = total[0:10]
 
 print(first_ten_digits)
