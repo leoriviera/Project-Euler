@@ -1,26 +1,24 @@
-# Solved correctly
-def is_palindrome(integer):
-    # Convert the integer to a string
-    string = str(integer)
-    # Reverse the string and join it back together
-    reversed_string = ''.join(reversed(string))
-    # If two strings are equal...
-    if(string == reversed_string):
-        # Return true
-        return True
-    return False
+from snippets import is_palindrome
 
 
-largest_product = 0
-# With one factor between 100 and 1000...
-for factor_one in range(100, 999 + 1):
-    # And with a second factor between 100 and 1000...
-    for factor_two in range(factor_one, 999 + 1):
-        # Calculate the product of the two factors
-        product = factor_one * factor_two
-        # If the product is a palindrome and is larger than the largest product...
-        if(is_palindrome(product) and product > largest_product):
-            # Set the largest product to the current product
-            largest_product = product
+def problem_4():
+    "Find the largest palindrome made from the product of two 3-digit numbers."
 
-print(largest_product)
+    largest_product = 0
+    # With one factor between 100 and 1000...
+    for factor_one in range(100, 999 + 1):
+        # And with a second factor between 100 and 1000...
+        for factor_two in range(factor_one, 999 + 1):
+            # Calculate the product of the two factors
+            product = factor_one * factor_two
+            # If the product is a palindrome and is larger than the largest product...
+            if(is_palindrome(product) and product > largest_product):
+                # Set the largest product to the current product
+                largest_product = product
+
+    return largest_product
+
+
+if __name__ == "__main__":
+    answer = problem_4()
+    print(answer)
