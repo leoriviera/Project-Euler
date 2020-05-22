@@ -1,12 +1,20 @@
-# Solved correctly
-maximum_digital_sum = 0
+def problem_56():
+    "Considering natural numbers of the form, a^b, where a, b < 100, what is the maximum digital sum?"
 
-for a in range(1, 100):
-    for b in range(1, 100):
-        power = str(a ** b)
-        digital_sum = sum(int(power[index]) for index in range(0, len(power)))
+    maximum_digital_sum = 0
 
-        if digital_sum > maximum_digital_sum:
-            maximum_digital_sum = digital_sum
+    for a in range(1, 100):
+        for b in range(1, 100):
+            power = str(a ** b)
+            digital_sum = sum(int(power[index])
+                              for index in range(0, len(power)))
 
-print(maximum_digital_sum)
+            if digital_sum > maximum_digital_sum:
+                maximum_digital_sum = digital_sum
+
+    return maximum_digital_sum
+
+
+if __name__ == "__main__":
+    answer = problem_56()
+    print(answer)

@@ -1,30 +1,39 @@
-lychrel_count = 0
+def problem_55():
+    "How many Lychrel numbers are there below ten-thousand?"
 
-def palindrome_det(possible_palindrome):
-    digit_reversed = [], []
-    digit_list = list(str(possible_palindrome))
+    lychrel_count = 0
 
-    digit_reversed = list(digit for digit in reversed(digit_list))
+    def is_palindrome(integer):
+        # Convert the integer to a string
+        string = str(integer)
+        # Reverse the string and join it back together
+        reversed_string = ''.join(reversed(string))
+        # If two strings are equal...
+        if(string == reversed_string):
+            # Return true
+            return True
+        # Otherwise, return the reversed number
+        return int(reversed_string)
 
-    if digit_list == digit_reversed and n != possible_palindrome:
-        return True
-    else:
-        digit_reversed = int(''.join(digit_reversed))
-        return digit_reversed
+    # For fifty iterations of each number below 10000...
+    for n in range(1, 10000):
+        for iteration in range(0, 50 + 1):
+            # Check whether the number is a palindrome
+            palindrome = is_palindrome(n)
+            # If it is, break the loop.
+            if(palindrome == True):
+                break
+            # Otherwise, add the reversed number to n
+            n += palindrome
 
-for n in range(1, 10000):
-    palindrome_1 = n
+        # If, after the iterations, the number is not a palindrome...
+        if(palindrome is not True):
+            # Add one to the lychrel count
+            lychrel_count += 1
 
-    for iteration in range(0, 50 + 1):
-        is_palindrome = palindrome_det(palindrome_1)
+    return lychrel_count
 
-        if is_palindrome != True:
-            palindrome_2 = is_palindrome
-            palindrome_1 += palindrome_2
-        elif is_palindrome and palindrome_1 != n:
-            break
 
-    if is_palindrome != True:
-        lychrel_count += 1
-
-print(lychrel_count)
+if __name__ == "__main__":
+    answer = problem_55()
+    print(answer)

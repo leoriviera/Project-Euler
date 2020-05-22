@@ -1,15 +1,19 @@
-# Solved correctly
-self_powers_total = 0
-last_ten_digits = ''
+def problem_48():
+    "Find the last ten digits of the series, 1^1 + 2^2 + 3^3 + ... + 1000^1000"
 
-for n in range(1, 1000 + 1):
-    self_powers_total += n ** n
+    total = 0
+    # For each number n between 1 and 1000...
+    for n in range(1, 1000 + 1):
+        total += n ** n
 
-self_powers_total = str(self_powers_total)
-self_powers_length = len(self_powers_total)
+    # Convert the total to a string
+    total = str(total)
+    # Extract the final ten digits
+    final_digits = total[-10:]
 
-for digit_index in range(self_powers_length - 10, self_powers_length):
-    digit = self_powers_total[digit_index]
-    last_ten_digits += digit
+    return final_digits
 
-print(last_ten_digits)
+
+if __name__ == "__main__":
+    answer = problem_48()
+    print(answer)

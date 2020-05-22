@@ -1,24 +1,26 @@
 # Solved correctly
-total = 0
-
-def palindrome_det(possible_palindrome):
-    digit_reversed = [], []
-    digit_list = list(str(possible_palindrome))
-
-    digit_reversed = list(digit for digit in reversed(digit_list))
-
-    if digit_list == digit_reversed:
-        return True
-    else:
-        return False
+from snippets import is_palindrome
 
 
-for n in range(0, 1000000):
-    n_palindrome = palindrome_det(n)
-    if n_palindrome:
-        n_binary = format(n, '0b')
-        n_binary_palindrome = palindrome_det(n_binary)
-        if n_binary_palindrome:
-            total += n
+def problem_36():
+    "Find the sum of all numbers, less than one million, which are palindromic in base 10 and base 2."
 
-print(total)
+    total = 0
+
+    # For each integer, n, between 1 and 1000000...
+    for n in range(1, 1000000):
+        # If number is a palindrome...
+        if is_palindrome(n):
+            # Convert number to binary
+            n_binary = format(n, '0b')
+            # If n in binary is a palindrome...
+            if is_palindrome(n_binary):
+                # Add n to the total
+                total += n
+
+    return total
+
+
+if __name__ == "__main__":
+    answer = problem_36()
+    print(answer)
