@@ -49,7 +49,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 38](https://projecteuler.net/problem=38) | Pandigital multiples | 5% | :x: |
 | [Problem 39](https://projecteuler.net/problem=39) | Integer right triangles | 5% | :white_check_mark: |
 | [Problem 40](https://projecteuler.net/problem=40) | Champernowne's constant | 5% | :white_check_mark: |
-| [Problem 41](https://projecteuler.net/problem=41) | Pandigital prime | 5% | :x: |
+| [Problem 41](https://projecteuler.net/problem=41) | Pandigital prime | 5% | :white_check_mark: |
 | [Problem 42](https://projecteuler.net/problem=42) | Coded triangle numbers | 5% | :white_check_mark: |
 | [Problem 43](https://projecteuler.net/problem=43) | Sub-string divisibility | 5% | :white_check_mark: |
 | [Problem 44](https://projecteuler.net/problem=44) | Pentagon numbers | 5% | :x: |
@@ -75,7 +75,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 64](https://projecteuler.net/problem=64) | Odd period square roots | 20% | :x: |
 | [Problem 65](https://projecteuler.net/problem=65) | Convergents of e | 15% | :x: |
 | [Problem 66](https://projecteuler.net/problem=66) | Diophantine equation | 25% | :x: |
-| [Problem 67](https://projecteuler.net/problem=67) | Maximum path sum II | 5% | :x: |
+| [Problem 67](https://projecteuler.net/problem=67) | Maximum path sum II | 5% | :white_check_mark: |
 | [Problem 68](https://projecteuler.net/problem=68) | Magic 5-gon ring | 25% | :x: |
 | [Problem 69](https://projecteuler.net/problem=69) | Totient maximum | 10% | :white_check_mark: |
 | [Problem 70](https://projecteuler.net/problem=70) | Totient permutation | 20% | :x: |
