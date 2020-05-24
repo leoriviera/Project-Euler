@@ -26,7 +26,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 15](https://projecteuler.net/problem=15) | Lattice paths | 5% | :white_check_mark: |
 | [Problem 16](https://projecteuler.net/problem=16) | Power digit sum | 5% | :white_check_mark: |
 | [Problem 17](https://projecteuler.net/problem=17) | Number letter counts | 5% | :white_check_mark: |
-| [Problem 18](https://projecteuler.net/problem=18) | Maximum path sum I | 5% | :x: |
+| [Problem 18](https://projecteuler.net/problem=18) | Maximum path sum I | 5% | :white_check_mark: |
 | [Problem 19](https://projecteuler.net/problem=19) | Counting Sundays | 5% | :white_check_mark: |
 | [Problem 20](https://projecteuler.net/problem=20) | Factorial digit sum | 5% | :white_check_mark: |
 | [Problem 21](https://projecteuler.net/problem=21) | Amicable numbers | 5% | :x: |
@@ -41,7 +41,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 30](https://projecteuler.net/problem=30) | Digit fifth powers | 5% | :white_check_mark: |
 | [Problem 31](https://projecteuler.net/problem=31) | Coin sums | 5% | :x: |
 | [Problem 32](https://projecteuler.net/problem=32) | Pandigital products | 5% | :x: |
-| [Problem 33](https://projecteuler.net/problem=33) | Digit cancelling fractions | 5% | :x: |
+| [Problem 33](https://projecteuler.net/problem=33) | Digit cancelling fractions | 5% | :white_check_mark: |
 | [Problem 34](https://projecteuler.net/problem=34) | Digit factorials | 5% | :x: |
 | [Problem 35](https://projecteuler.net/problem=35) | Circular primes | 5% | :white_check_mark: |
 | [Problem 36](https://projecteuler.net/problem=36) | Double-base palindromes | 5% | :white_check_mark: |
