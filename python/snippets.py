@@ -1,6 +1,8 @@
-import random
-import math
-import collections
+from random import randrange
+from math import gcd
+from collections import Counter
+from itertools import combinations
+from functools import reduce
 
 
 def find_triangle_max_path_sum(triangle):
@@ -49,7 +51,7 @@ def is_prime(n):
     if(n == 2):
         return True
     for i in range(75):
-        a = random.randrange(2, n)
+        a = randrange(2, n)
         if(pow(a, n-1, n) != 1):
             return False
     return True
@@ -59,8 +61,11 @@ def calculate_smallest_factor(n):
     # Pollard rho Factorisation method adapted from the article at http://mathworld.wolfram.com/PollardRhoFactorizationMethod.html
     if(n % 2 == 0):
         return 2
+    if (is_prime(n)):
+        return n
+
     while True:
-        c = random.randrange(2, n)
+        c = randrange(2, n)
 
         def f(x): return (x**2 - c)
         x = y = 2
@@ -68,7 +73,7 @@ def calculate_smallest_factor(n):
         while d == 1:
             x = f(x) % n
             y = f(f(y)) % n
-            d = math.gcd((x - y) % n, n)
+            d = gcd((x - y) % n, n)
         if(d != n):
             return d
 
@@ -108,10 +113,54 @@ def divisor_count(n):
     # Return the prime factors of n
     prime_factor_tree = list_prime_factors(n)
     # Find how many times each prime factor occurs
-    factors = dict(collections.Counter(prime_factor_tree))
+    factors = dict(Counter(prime_factor_tree))
     # For each prime factor in the dictionary of factors
     for base, exponent in factors.items():
         # Multiply the count of the divisors by the exponent + 1
         divisor_count *= (exponent + 1)
 
     return divisor_count
+
+
+def euclidian_algorithm(a, b):
+    if (a > b):
+        a, b = b, a
+
+    while True:
+        r = a % b
+        if (r == 0):
+            return b
+        a = b
+        b = r
+
+
+def simplify_fraction(fraction):
+    numerator = fraction[0]
+    denominator = fraction[1]
+
+    greatest_common = gcd(numerator, denominator)
+
+    simplified_numerator = int(numerator / greatest_common)
+    simplified_denominator = int(denominator / greatest_common)
+
+    return (simplified_numerator, simplified_denominator)
+
+
+def list_proper_divisors(n):
+    if (n == 1):
+        return []
+
+    prime_factors = list_prime_factors(n)
+
+    factor_combinations = []
+
+    for r in range(1, len(prime_factors)):
+        factor_combinations.extend(combinations(prime_factors, r))
+
+    factors_list = [1]
+
+    for combination in list(set(factor_combinations)):
+        factor = reduce((lambda x, y: x * y), combination)
+        factors_list.append(factor)
+
+    return factors_list
