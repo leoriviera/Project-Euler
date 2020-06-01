@@ -1,23 +1,35 @@
+from snippets import list_prime_factors
+from functools import reduce
+
+
 def problem_5():
     "What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?"
 
-    # Start the number from 2520
-    num = 2520
+    num_divisors = []
 
-    while True:
-        # Set a flag to False
-        flag = False
-        # For each divisor between 11 and 20...
-        for div in range(11, 20 + 1):
-            # If a number is not divisible by a divisor...
-            if(num % div != 0):
-                # Increase the number by 10 and set the flag to True
-                num += 10
-                flag = True
-                break
-        # If the flag hasn't been triggered, break the loop
-        if(not flag):
-            break
+    # For each divisor between 2 and 20...
+    for divisor in range(2, 20 + 1):
+        # Get the divisor's prime factors
+        prime_factors = list_prime_factors(divisor)
+        # Produce a list of unique factors
+        unique_factors = set(prime_factors)
+
+        # For each unique factor...
+        for factor in unique_factors:
+            # Calculate the difference between the count of the
+            # factor in the factorisation and the count of the
+            # factor in current number prime factorisation
+            factor_count_diff = prime_factors.count(
+                factor) - num_divisors.count(factor)
+            # If the difference is greater than 0...
+            # In other words, the number is currently indivisible
+            # by the factor in the divisor
+            if (factor_count_diff > 0):
+                # Add the factor as much as the difference
+                num_divisors.extend([factor] * factor_count_diff)
+
+    # Multiply all the divisors together
+    num = reduce((lambda x, y: x * y), num_divisors)
 
     return num
 
