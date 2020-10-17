@@ -206,6 +206,10 @@ class ProblemTests(TestCase):
         from problem_97 import problem_97
         self.assertEqual(problem_97(), 8739992577)
 
+    def test_problem_99(self):
+        from problem_99 import problem_99
+        self.assertEqual(problem_99(), 709)
+
     def test_problem_102(self):
         from problem_102 import problem_102
         self.assertEqual(problem_102(), 228)
