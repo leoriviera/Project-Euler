@@ -1,3 +1,7 @@
+from math import log
+from snippets import is_prime
+
+
 def problem_99():
     base_exponent = [
         [519432, 525806],
@@ -1002,15 +1006,16 @@ def problem_99():
         [13846, 725685]
     ]
 
-    largest_p, largest_index = 0, 0
+    largest_power = 1
+    largest_index = -1
     for index, pair in enumerate(base_exponent):
         a, b = pair[0], pair[1]
-        p = pow(a, b)
-        if(p > largest_p):
-            largest_p = p
+        power = log(a) * b
+        if(power > largest_power):
+            largest_power = power
             largest_index = index
 
-    return largest_index
+    return (largest_index + 1)
 
 
 if __name__ == "__main__":
