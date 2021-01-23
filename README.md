@@ -66,7 +66,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 55](https://projecteuler.net/problem=55) | Lychrel numbers | 5% | :white_check_mark: |
 | [Problem 56](https://projecteuler.net/problem=56) | Powerful digit sum | 5% | :white_check_mark: |
 | [Problem 57](https://projecteuler.net/problem=57) | Square root convergents | 5% | :x: |
-| [Problem 58](https://projecteuler.net/problem=58) | Spiral primes | 5% | :x: |
+| [Problem 58](https://projecteuler.net/problem=58) | Spiral primes | 5% | :white_check_mark: |
 | [Problem 59](https://projecteuler.net/problem=59) | XOR decryption | 5% | :x: |
 | [Problem 60](https://projecteuler.net/problem=60) | Prime pair sets | 20% | :x: |
 | [Problem 61](https://projecteuler.net/problem=61) | Cyclical figurate numbers | 20% | :x: |
