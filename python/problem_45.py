@@ -13,6 +13,8 @@ def problem_45():
         h_n = n * (2 * n - 1)
         return h_n
 
+    count = 1
+
     triangle_n_list = []
     pentagon_n_list = []
     hexagon_n_list = []
@@ -29,6 +31,8 @@ def problem_45():
         if triangle_n in pentagon_n_list and triangle_n in hexagon_n_list:
             if triangle_n != 1 and triangle_n != 40755:
                 return triangle_n
+
+        count += 1
 
 
 if __name__ == "__main__":
