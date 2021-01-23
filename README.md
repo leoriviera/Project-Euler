@@ -203,9 +203,9 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 192](https://projecteuler.net/problem=192) | Best Approximations | 75% | :x: |
 | [Problem 193](https://projecteuler.net/problem=193) | Squarefree Numbers | 55% | :x: |
 | [Problem 194](https://projecteuler.net/problem=194) | Coloured Configurations | 75% | :x: |
-| [Problem 195](https://projecteuler.net/problem=195) | Inscribed circles of triangles with one angle of 60 degrees | 75% |:x:] |
+| [Problem 195](https://projecteuler.net/problem=195) | Inscribed circles of triangles with one angle of 60 degrees | 75% |:x: |
 | [Problem 196](https://projecteuler.net/problem=196) | Prime triplets | 65% | :x: |
-| [Problem 197](https://projecteuler.net/problem=197) | Investigating the behaviour of a recursively defined sequence | 45% |:x:] |
+| [Problem 197](https://projecteuler.net/problem=197) | Investigating the behaviour of a recursively defined sequence | 45% |:x: |
 | [Problem 198](https://projecteuler.net/problem=198) | Ambiguous Numbers | 80% | :x: |
 | [Problem 199](https://projecteuler.net/problem=199) | Iterative Circle Packing | 70% | :x: |
 | [Problem 200](https://projecteuler.net/problem=200) | Find the 200th prime-proof sqube containing the contiguous sub-string "200" | 65% | :x: |
@@ -588,7 +588,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 577](https://projecteuler.net/problem=577) | Counting hexagons | 20% | :x: |
 | [Problem 578](https://projecteuler.net/problem=578) | Integers with decreasing prime powers | 80% | :x: |
 | [Problem 579](https://projecteuler.net/problem=579) | Lattice points in lattice cubes | 100 | :x: |
-[% (Not](https://projecteuler.net/problem=ye) ye | finalised)Problem 580: Squarefree Hilbert numbers | 70% | :x: |
+| [Problem 580](https://projecteuler.net/problem=580) | Squarefree Hilbert numbers | 70% | :x: |
 | [Problem 581](https://projecteuler.net/problem=581) | 47-smooth triangular numbers | 30% | :x: |
 | [Problem 582](https://projecteuler.net/problem=582) | Nearly isosceles 120 degree triangles | 50% | :x: |
 | [Problem 583](https://projecteuler.net/problem=583) | Heron Envelopes | 45% | :x: |
