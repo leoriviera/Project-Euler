@@ -34,7 +34,7 @@ def problem_69():
             max_ratio = ratio
             max_n = n
 
-    print(max_n)
+    return max_n
 
 
 if __name__ == "__main__":
