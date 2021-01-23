@@ -39,7 +39,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 | [Problem 28](https://projecteuler.net/problem=28) | Number spiral diagonals | 5% | :white_check_mark: |
 | [Problem 29](https://projecteuler.net/problem=29) | Distinct powers | 5% | :white_check_mark: |
 | [Problem 30](https://projecteuler.net/problem=30) | Digit fifth powers | 5% | :white_check_mark: |
-| [Problem 31](https://projecteuler.net/problem=31) | Coin sums | 5% | :x: |
+| [Problem 31](https://projecteuler.net/problem=31) | Coin sums | 5% | :white_check_mark: |
 | [Problem 32](https://projecteuler.net/problem=32) | Pandigital products | 5% | :x: |
 | [Problem 33](https://projecteuler.net/problem=33) | Digit cancelling fractions | 5% | :white_check_mark: |
 | [Problem 34](https://projecteuler.net/problem=34) | Digit factorials | 5% | :x: |
