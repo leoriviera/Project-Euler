@@ -1,4 +1,4 @@
-from unittest import TestCase, main
+from unittest import TextTestRunner, TestCase, main
 from time import time
 
 
@@ -98,6 +98,10 @@ class ProblemTests(TestCase):
         from problem_22 import problem_22
         self.assertEqual(problem_22(), 871198282)
 
+    def test_problem_23(self):
+        from problem_23 import problem_23
+        self.assertEqual(problem_23(), 4179871)
+
     def test_problem_24(self):
         from problem_24 import problem_24
         self.assertEqual(problem_24(), 2783915460)
@@ -123,7 +127,7 @@ class ProblemTests(TestCase):
         self.assertEqual(problem_30(), 443839)
 
     def test_problem_31(self):
-        from probelm_31 import probelm_31
+        from problem_31 import problem_31
         self.assertEqual(problem_31(), 73682)
 
     def test_problem_33(self):
@@ -190,6 +194,10 @@ class ProblemTests(TestCase):
         from problem_58 import problem_58
         self.assertEqual(problem_58(), 26241)
 
+    def test_problem_59(self):
+        from problem_59 import problem_59
+        self.assertEqual(problem_59(), 129448)
+
     def test_problem_67(self):
         from problem_67 import problem_67
         self.assertEqual(problem_67(), 7273)
@@ -197,6 +205,10 @@ class ProblemTests(TestCase):
     def test_problem_69(self):
         from problem_69 import problem_69
         self.assertEqual(problem_69(), 510510)
+
+    def test_problem_73(self):
+        from problem_73 import problem_73
+        self.assertEqual(problem_73(), 7295372)
 
     def test_problem_74(self):
         from problem_74 import problem_74
@@ -218,6 +230,14 @@ class ProblemTests(TestCase):
         from problem_102 import problem_102
         self.assertEqual(problem_102(), 228)
 
+    def test_problem_112(self):
+        from problem_112 import problem_112
+        self.assertEqual(problem_112(), 1587000)
+
+    def test_problem_808(self):
+        from problem_808 import problem_808
+        self.assertEqual(problem_808(), 3807504276997394)
+
 
 if __name__ == "__main__":
-    main()
+    main(testRunner=TextTestRunner(verbosity=2))
