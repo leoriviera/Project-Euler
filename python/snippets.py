@@ -5,13 +5,18 @@ from itertools import combinations
 from functools import reduce
 
 
+def is_abundant(n):
+    if sum(list_proper_divisors(n)) > n:
+        return True
+    return False
+
+
 def find_triangle_max_path_sum(triangle):
     triangle = list(reversed(triangle))
 
     previous_line = triangle[0]
 
     for line_number in range(1, len(triangle)):
-
         current_line = triangle[line_number]
         calculated_line = []
 
@@ -19,7 +24,7 @@ def find_triangle_max_path_sum(triangle):
             a = integer + previous_line[index]
             b = integer + previous_line[index + 1]
 
-            if (a > b):
+            if a > b:
                 calculated_line.append(a)
             else:
                 calculated_line.append(b)
@@ -35,9 +40,9 @@ def is_palindrome(integer):
     # Convert the integer to a string
     string = str(integer)
     # Reverse the string and join it back together
-    reversed_string = ''.join(reversed(string))
+    reversed_string = "".join(reversed(string))
     # If two strings are equal, return true
-    if(string == reversed_string):
+    if string == reversed_string:
         return True
     # Otherwise, return False
     return False
@@ -46,35 +51,37 @@ def is_palindrome(integer):
 def is_prime(n):
     # Primality test adapted from the Brilliant.org wiki entry on primality testing, found at https://brilliant.org/wiki/prime-testing/
     # Determine primailty using the Fermat Primality Test
-    if (n == 0 or n == 1):
+    if n == 0 or n == 1:
         return None
-    if(n == 2):
+    if n == 2:
         return True
-    for i in range(75):
+    for _ in range(100):
         a = randrange(2, n)
-        if(pow(a, n-1, n) != 1):
+        if pow(a, n - 1, n) != 1:
             return False
     return True
 
 
 def calculate_smallest_factor(n):
     # Pollard rho Factorisation method adapted from the article at http://mathworld.wolfram.com/PollardRhoFactorizationMethod.html
-    if(n % 2 == 0):
+    if n % 2 == 0:
         return 2
-    if (is_prime(n)):
+    if is_prime(n):
         return n
 
     while True:
         c = randrange(2, n)
 
-        def f(x): return (x**2 - c)
+        def f(x):
+            return x**2 - c
+
         x = y = 2
         d = 1
         while d == 1:
             x = f(x) % n
             y = f(f(y)) % n
             d = gcd((x - y) % n, n)
-        if(d != n):
+        if d != n:
             return d
 
 
@@ -85,11 +92,11 @@ def list_prime_factors(n):
     factors_list = [n]
     # While at least one value is not prime...
     # (While the list isn't empty when filtered with the function not not_prime(f))
-    while (list(filter(lambda f: (not is_prime(f)), factors_list)) != []):
+    while list(filter(lambda f: (not is_prime(f)), factors_list)) != []:
         # For each factor in the list...
         for factor in factors_list:
             # If the factor is not prime...
-            if(not is_prime(factor)):
+            if not is_prime(factor):
                 # Find the samllest factor
                 factorised = calculate_smallest_factor(factor)
                 # Add the factorised factor to the factors list
@@ -107,7 +114,7 @@ def divisor_count(n):
 
     divisor_count = 1
     # If n is prime, return 2
-    if(is_prime(n)):
+    if is_prime(n):
         return 2
 
     # Return the prime factors of n
@@ -117,18 +124,18 @@ def divisor_count(n):
     # For each prime factor in the dictionary of factors
     for base, exponent in factors.items():
         # Multiply the count of the divisors by the exponent + 1
-        divisor_count *= (exponent + 1)
+        divisor_count *= exponent + 1
 
     return divisor_count
 
 
 def euclidian_algorithm(a, b):
-    if (a > b):
+    if a > b:
         a, b = b, a
 
     while True:
         r = a % b
-        if (r == 0):
+        if r == 0:
             return b
         a = b
         b = r
@@ -147,7 +154,7 @@ def simplify_fraction(fraction):
 
 
 def list_proper_divisors(n):
-    if (n == 1):
+    if n == 1:
         return []
 
     prime_factors = list_prime_factors(n)
@@ -159,8 +166,8 @@ def list_proper_divisors(n):
 
     factors_list = [1]
 
-    for combination in list(set(factor_combinations)):
+    for combination in factor_combinations:
         factor = reduce((lambda x, y: x * y), combination)
         factors_list.append(factor)
 
-    return factors_list
+    return set(sorted(factors_list))
