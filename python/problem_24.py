@@ -12,7 +12,7 @@ def problem_24():
     millionth_permutation_string = ''.join(
         digit for digit in millionth_permutation)
 
-    return millionth_permutation_string
+    return int(millionth_permutation_string)
 
 
 if __name__ == "__main__":

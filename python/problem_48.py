@@ -11,7 +11,7 @@ def problem_48():
     # Extract the final ten digits
     final_digits = total[-10:]
 
-    return final_digits
+    return int(final_digits)
 
 
 if __name__ == "__main__":

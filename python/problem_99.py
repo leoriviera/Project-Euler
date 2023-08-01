@@ -1,5 +1,4 @@
 from math import log
-from snippets import is_prime
 
 
 def problem_99():

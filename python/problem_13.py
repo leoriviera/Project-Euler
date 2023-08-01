@@ -109,7 +109,7 @@ def problem_13():
     # Extract the first ten digits using string manipulation
     first_ten_digits = total[0:10]
 
-    return first_ten_digits
+    return int(first_ten_digits)
 
 
 if __name__ == "__main__":
