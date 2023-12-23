@@ -1,7 +1,7 @@
 name: Generate README
 
 on:
-  workflow_call:
+  workflow_dispatch:
   push:
     branches:
       - 'master'
@@ -23,4 +23,7 @@ jobs:
           git config --global user.name "${GITHUB_ACTOR}"
           git config --global user.email "${GITHUB_ACTOR_ID}+${GITHUB_ACTOR}@users.noreply.github.com"
       - name: Commit and push README.md
-        run: git commit -a -m "Update README.md" && git push
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -a -m "Update README.md" && git push
+          fi
