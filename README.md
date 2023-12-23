@@ -16,7 +16,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |-|-|-|
 |[Problem 1](https://projecteuler.net/problem=1)|Multiples of $3$ or $5$|✅|
 |[Problem 2](https://projecteuler.net/problem=2)|Even Fibonacci Numbers|✅|
-|[Problem 3](https://projeacteuler.net/problem=3)|Largest Prime Factor|✅|
+|[Problem 3](https://projecteuler.net/problem=3)|Largest Prime Factor|✅|
 |[Problem 4](https://projecteuler.net/problem=4)|Largest Palindrome Product|✅|
 |[Problem 5](https://projecteuler.net/problem=5)|Smallest Multiple|✅|
 |[Problem 6](https://projecteuler.net/problem=6)|Sum Square Difference|✅|
@@ -882,3 +882,4 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 866](https://projecteuler.net/problem=866)|Tidying Up B|❌|
 |[Problem 867](https://projecteuler.net/problem=867)|Tiling Dodecagon|❌|
 |[Problem 868](https://projecteuler.net/problem=868)|Belfry Maths|❌|
+
