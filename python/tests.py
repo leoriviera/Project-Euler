@@ -215,6 +215,11 @@ class ProblemTests(TestCase):
 
         self.assertEqual(problem_48(), 9110846700)
 
+    def test_problem_50(self):
+        from problem_50 import problem_50
+
+        self.assertEqual(problem_50(), 997651)
+
     def test_problem_52(self):
         from problem_52 import problem_52
 
@@ -244,6 +249,11 @@ class ProblemTests(TestCase):
         from problem_59 import problem_59
 
         self.assertEqual(problem_59(), 129448)
+
+    def test_problem_62(self):
+        from problem_62 import problem_62
+
+        self.assertEqual(problem_62(), 127035954683)
 
     def test_problem_67(self):
         from problem_67 import problem_67
@@ -290,10 +300,25 @@ class ProblemTests(TestCase):
 
         self.assertEqual(problem_112(), 1587000)
 
+    def test_problem_206(self):
+        from problem_206 import problem_206
+
+        self.assertEqual(problem_206(), 1389019170)
+
     def test_problem_808(self):
         from problem_808 import problem_808
 
         self.assertEqual(problem_808(), 3807504276997394)
+
+    def test_problem_816(self):
+        from problem_816 import problem_816
+
+        self.assertEqual(problem_816(), 20.880613018)
+
+    def test_problem_836(self):
+        from problem_836 import problem_836
+
+        self.assertEqual(problem_836(), "aprilfoolsjoke")
 
 
 if __name__ == "__main__":

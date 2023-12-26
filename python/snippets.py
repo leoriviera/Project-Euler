@@ -1,8 +1,37 @@
 from random import randrange
 from math import gcd
 from collections import Counter
-from itertools import combinations
+from itertools import chain, repeat, count, islice
 from functools import reduce
+
+
+# Code for repeat_chain, unique_combinations_from_value_counts, unique_combinations from https://stackoverflow.com/a/46623112
+def repeat_chain(values, counts):
+    return chain.from_iterable(map(repeat, values, counts))
+
+
+def unique_combinations_from_value_counts(values, counts, r):
+    n = len(counts)
+    indices = list(islice(repeat_chain(count(), counts), r))
+    if len(indices) < r:
+        return
+    while True:
+        yield tuple(values[i] for i in indices)
+        for i, j in zip(
+            reversed(range(r)), repeat_chain(reversed(range(n)), reversed(counts))
+        ):
+            if indices[i] != j:
+                break
+        else:
+            return
+        j = indices[i] + 1
+        for i, j in zip(range(i, r), repeat_chain(count(j), counts[j:])):
+            indices[i] = j
+
+
+def unique_combinations(iterable, r):
+    values, counts = zip(*Counter(iterable).items())
+    return unique_combinations_from_value_counts(values, counts, r)
 
 
 def is_abundant(n):
@@ -142,8 +171,7 @@ def euclidian_algorithm(a, b):
 
 
 def simplify_fraction(fraction):
-    numerator = fraction[0]
-    denominator = fraction[1]
+    (numerator, denominator) = fraction
 
     greatest_common = gcd(numerator, denominator)
 
@@ -162,7 +190,7 @@ def list_proper_divisors(n):
     factor_combinations = []
 
     for r in range(1, len(prime_factors)):
-        factor_combinations.extend(combinations(prime_factors, r))
+        factor_combinations.extend(unique_combinations(prime_factors, r))
 
     factors_list = [1]
 
