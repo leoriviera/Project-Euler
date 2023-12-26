@@ -63,7 +63,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 47](https://projecteuler.net/problem=47)|Distinct Primes Factors|✅|
 |[Problem 48](https://projecteuler.net/problem=48)|Self Powers|✅|
 |[Problem 49](https://projecteuler.net/problem=49)|Prime Permutations|❌|
-|[Problem 50](https://projecteuler.net/problem=50)|Consecutive Prime Sum|❌|
+|[Problem 50](https://projecteuler.net/problem=50)|Consecutive Prime Sum|✅|
 |[Problem 51](https://projecteuler.net/problem=51)|Prime Digit Replacements|❌|
 |[Problem 52](https://projecteuler.net/problem=52)|Permuted Multiples|✅|
 |[Problem 53](https://projecteuler.net/problem=53)|Combinatoric Selections|✅|
@@ -75,7 +75,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 59](https://projecteuler.net/problem=59)|XOR Decryption|✅|
 |[Problem 60](https://projecteuler.net/problem=60)|Prime Pair Sets|❌|
 |[Problem 61](https://projecteuler.net/problem=61)|Cyclical Figurate Numbers|❌|
-|[Problem 62](https://projecteuler.net/problem=62)|Cubic Permutations|❌|
+|[Problem 62](https://projecteuler.net/problem=62)|Cubic Permutations|✅|
 |[Problem 63](https://projecteuler.net/problem=63)|Powerful Digit Counts|❌|
 |[Problem 64](https://projecteuler.net/problem=64)|Odd Period Square Roots|❌|
 |[Problem 65](https://projecteuler.net/problem=65)|Convergents of $e$|❌|
@@ -219,7 +219,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 203](https://projecteuler.net/problem=203)|Squarefree Binomial Coefficients|❌|
 |[Problem 204](https://projecteuler.net/problem=204)|Generalised Hamming Numbers|❌|
 |[Problem 205](https://projecteuler.net/problem=205)|Dice Game|❌|
-|[Problem 206](https://projecteuler.net/problem=206)|Concealed Square|❌|
+|[Problem 206](https://projecteuler.net/problem=206)|Concealed Square|✅|
 |[Problem 207](https://projecteuler.net/problem=207)|Integer Partition Equations|❌|
 |[Problem 208](https://projecteuler.net/problem=208)|Robot Walks|❌|
 |[Problem 209](https://projecteuler.net/problem=209)|Circular Logic|❌|
@@ -829,7 +829,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 813](https://projecteuler.net/problem=813)|XOR-Powers|❌|
 |[Problem 814](https://projecteuler.net/problem=814)|Mezzo-forte|❌|
 |[Problem 815](https://projecteuler.net/problem=815)|Group by Value|❌|
-|[Problem 816](https://projecteuler.net/problem=816)|Shortest Distance Among Points|❌|
+|[Problem 816](https://projecteuler.net/problem=816)|Shortest Distance Among Points|✅|
 |[Problem 817](https://projecteuler.net/problem=817)|Digits in Squares|❌|
 |[Problem 818](https://projecteuler.net/problem=818)|SET|❌|
 |[Problem 819](https://projecteuler.net/problem=819)|Iterative Sampling|❌|
@@ -849,7 +849,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 833](https://projecteuler.net/problem=833)|Square Triangle Products|❌|
 |[Problem 834](https://projecteuler.net/problem=834)|Add and Divide|❌|
 |[Problem 835](https://projecteuler.net/problem=835)|Supernatural Triangles|❌|
-|[Problem 836](https://projecteuler.net/problem=836)|A Bold Proposition|❌|
+|[Problem 836](https://projecteuler.net/problem=836)|A Bold Proposition|✅|
 |[Problem 837](https://projecteuler.net/problem=837)|Amidakuji|❌|
 |[Problem 838](https://projecteuler.net/problem=838)|Not Coprime|❌|
 |[Problem 839](https://projecteuler.net/problem=839)|Beans in Bowls|❌|
