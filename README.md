@@ -883,4 +883,5 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 867](https://projecteuler.net/problem=867)|Tiling Dodecagon|❌|
 |[Problem 868](https://projecteuler.net/problem=868)|Belfry Maths|❌|
 |[Problem 869](https://projecteuler.net/problem=869)|Prime Guessing|❌|
+|[Problem 870](https://projecteuler.net/problem=870)|Stone Game IV|❌|
 
