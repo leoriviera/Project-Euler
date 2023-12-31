@@ -126,7 +126,7 @@ def list_prime_factors(n):
         for factor in factors_list:
             # If the factor is not prime...
             if not is_prime(factor):
-                # Find the samllest factor
+                # Find the smallest factor
                 factorised = calculate_smallest_factor(factor)
                 # Add the factorised factor to the factors list
                 factors_list.append(factorised)
