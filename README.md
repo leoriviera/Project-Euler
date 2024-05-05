@@ -14,13 +14,13 @@ This table contains a list of all the problems on Project Euler, as well as the 
 
 |Problem Number|Problem Title|Solved in Python?|
 |-|-|-|
-|[Problem 1](https://projecteuler.net/problem=1)|Multiples of $3$ or $5$|✅|
+|[Problem 1](https://projecteuler.net/problem=1)|Multiples of 3 or 5|✅|
 |[Problem 2](https://projecteuler.net/problem=2)|Even Fibonacci Numbers|✅|
 |[Problem 3](https://projecteuler.net/problem=3)|Largest Prime Factor|✅|
 |[Problem 4](https://projecteuler.net/problem=4)|Largest Palindrome Product|✅|
 |[Problem 5](https://projecteuler.net/problem=5)|Smallest Multiple|✅|
 |[Problem 6](https://projecteuler.net/problem=6)|Sum Square Difference|✅|
-|[Problem 7](https://projecteuler.net/problem=7)|$10001$st Prime|✅|
+|[Problem 7](https://projecteuler.net/problem=7)|10001st Prime|✅|
 |[Problem 8](https://projecteuler.net/problem=8)|Largest Product in a Series|✅|
 |[Problem 9](https://projecteuler.net/problem=9)|Special Pythagorean Triplet|✅|
 |[Problem 10](https://projecteuler.net/problem=10)|Summation of Primes|✅|
@@ -884,3 +884,23 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 868](https://projecteuler.net/problem=868)|Belfry Maths|❌|
 |[Problem 869](https://projecteuler.net/problem=869)|Prime Guessing|❌|
 |[Problem 870](https://projecteuler.net/problem=870)|Stone Game IV|❌|
+|[Problem 871](https://projecteuler.net/problem=871)|Drifting Subsets|❌|
+|[Problem 872](https://projecteuler.net/problem=872)|Recursive Tree|❌|
+|[Problem 873](https://projecteuler.net/problem=873)|Words with Gaps|❌|
+|[Problem 874](https://projecteuler.net/problem=874)|Maximal Prime Score|❌|
+|[Problem 875](https://projecteuler.net/problem=875)|Quadruple Congruence|❌|
+|[Problem 876](https://projecteuler.net/problem=876)|Triplet Tricks|❌|
+|[Problem 877](https://projecteuler.net/problem=877)|XOR-Equation A|❌|
+|[Problem 878](https://projecteuler.net/problem=878)|XOR-Equation B|❌|
+|[Problem 879](https://projecteuler.net/problem=879)|Touch-screen Password|❌|
+|[Problem 880](https://projecteuler.net/problem=880)|Nested Radicals|❌|
+|[Problem 881](https://projecteuler.net/problem=881)|Divisor Graph Width|❌|
+|[Problem 882](https://projecteuler.net/problem=882)|Removing Bits|❌|
+|[Problem 883](https://projecteuler.net/problem=883)|Remarkable Triangles|❌|
+|[Problem 884](https://projecteuler.net/problem=884)|Removing Cubes|❌|
+|[Problem 885](https://projecteuler.net/problem=885)|Sorted Digits|❌|
+|[Problem 886](https://projecteuler.net/problem=886)|Coprime Permutations|❌|
+|[Problem 887](https://projecteuler.net/problem=887)|Bounded Binary Search|❌|
+|[Problem 888](https://projecteuler.net/problem=888)|1249 Nim|❌|
+|[Problem 889](https://projecteuler.net/problem=889)|Rational Blancmange|❌|
+
