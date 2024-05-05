@@ -59,10 +59,10 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 43](https://projecteuler.net/problem=43)|Sub-string Divisibility|✅|
 |[Problem 44](https://projecteuler.net/problem=44)|Pentagon Numbers|❌|
 |[Problem 45](https://projecteuler.net/problem=45)|Triangular, Pentagonal, and Hexagonal|✅|
-|[Problem 46](https://projecteuler.net/problem=46)|Goldbach's Other Conjecture|❌|
+|[Problem 46](https://projecteuler.net/problem=46)|Goldbach's Other Conjecture|✅|
 |[Problem 47](https://projecteuler.net/problem=47)|Distinct Primes Factors|✅|
 |[Problem 48](https://projecteuler.net/problem=48)|Self Powers|✅|
-|[Problem 49](https://projecteuler.net/problem=49)|Prime Permutations|❌|
+|[Problem 49](https://projecteuler.net/problem=49)|Prime Permutations|✅|
 |[Problem 50](https://projecteuler.net/problem=50)|Consecutive Prime Sum|✅|
 |[Problem 51](https://projecteuler.net/problem=51)|Prime Digit Replacements|❌|
 |[Problem 52](https://projecteuler.net/problem=52)|Permuted Multiples|✅|
@@ -884,4 +884,3 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 868](https://projecteuler.net/problem=868)|Belfry Maths|❌|
 |[Problem 869](https://projecteuler.net/problem=869)|Prime Guessing|❌|
 |[Problem 870](https://projecteuler.net/problem=870)|Stone Game IV|❌|
-
