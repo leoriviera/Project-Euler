@@ -135,7 +135,7 @@ def list_prime_factors(n):
                 # Remove the old factor from the list
                 factors_list.remove(factor)
 
-    return factors_list
+    return sorted(factors_list)
 
 
 def divisor_count(n):

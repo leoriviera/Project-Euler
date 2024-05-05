@@ -1,5 +1,5 @@
 # Solved correctly
-from snippets import is_prime, list_prime_factors, divisor_count
+from snippets import divisor_count
 
 
 def problem_12():

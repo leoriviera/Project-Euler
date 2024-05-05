@@ -1,20 +1,10 @@
 def problem_6():
     "Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum."
-    
-    sum_square = 0
-    square_sum = 0
-    total = 0
 
-    # For each number between 1 and 100...
-    for num in range(1, 100 + 1):
-        # Add the number to the total...
-        total += num
-        # Square the number and add it to the sum of squares...
-        sum_square += num ** 2
+    sum_of_square = sum(map(lambda n: n**2, range(1, 100 + 1)))
+    square_of_sum = sum(range(1, 100 + 1)) ** 2
 
-    # Square the total and calculate difference
-    square_sum = total * total
-    difference = square_sum - sum_square
+    difference = square_of_sum - sum_of_square
 
     return difference
 

@@ -5,9 +5,8 @@ def problem_56():
 
     for a in range(1, 100):
         for b in range(1, 100):
-            power = str(a ** b)
-            digital_sum = sum(int(power[index])
-                              for index in range(0, len(power)))
+            result = str(a**b)
+            digital_sum = sum([int(digit) for digit in result])
 
             if digital_sum > maximum_digital_sum:
                 maximum_digital_sum = digital_sum

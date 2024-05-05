@@ -1,5 +1,6 @@
 import math
 
+
 def problem_20():
     "Find the sum of the digits in the number 100!"
 
@@ -7,7 +8,7 @@ def problem_20():
     factorial = str(math.factorial(100))
 
     # Calculate the sum of the digits in the string
-    total = sum(int(digit) for digit in factorial)
+    total = sum([int(digit) for digit in factorial])
 
     return total
 

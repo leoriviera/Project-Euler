@@ -1,18 +1,7 @@
 from snippets import is_prime
 
-ceiling = 1_000_000
 
-n = 2
-primes = []
-
-while sum(primes) <= ceiling:
-    if is_prime(n):
-        primes.append(n)
-
-    n += 1
-
-
-def windows(size, length):
+def windows(length, size):
     count = (length - size) + 1
 
     indexes = []
@@ -24,10 +13,21 @@ def windows(size, length):
 
 
 def problem_50():
+    ceiling = 1_000_000
+
+    n = 2
+    primes = []
+
+    while sum(primes) <= ceiling:
+        if is_prime(n):
+            primes.append(n)
+
+        n += 1
+
     length = len(primes)
 
     for size in range(length, 0 - 1, -1):
-        w = windows(size, length)
+        w = windows(length, size)
 
         sums = map(lambda c: sum(primes[c[0] : c[1]]), w)
 

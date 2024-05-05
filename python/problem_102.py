@@ -999,18 +999,16 @@ def problem_102():
         [777, -947, -57, 990, 74, 19],
         [971, 626, -496, -781, -602, -239],
         [-651, 433, 11, -339, 939, 294],
-        [-965, -728, 560, 569, -708, -247]
+        [-965, -728, 560, 569, -708, -247],
     ]
 
     # Calculates the area of the triangle from three coordinates
 
     def triangle_area(A, B, C):
-        area = abs(((A[0] - C[0]) * (B[1] - A[1]) -
-                    (A[0] - B[0]) * (C[1] - A[1])) / 2)
+        area = abs(((A[0] - C[0]) * (B[1] - A[1]) - (A[0] - B[0]) * (C[1] - A[1])) / 2)
         return area
 
     count = 0
-    c = 0
 
     # For each array in the points_array...
     for array in points_array:
@@ -1024,7 +1022,7 @@ def problem_102():
         t_area_1 = triangle_area(array_A, array_B, array_O)
         # Find the area of the triangle ACO
         t_area_2 = triangle_area(array_A, array_C, array_O)
-    # Find the area of the triangle BCO
+        # Find the area of the triangle BCO
         t_area_3 = triangle_area(array_B, array_C, array_O)
         # Find the area of the triangle ABC
         t_area_t = triangle_area(array_A, array_B, array_C)

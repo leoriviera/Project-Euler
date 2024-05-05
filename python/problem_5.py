@@ -19,12 +19,11 @@ def problem_5():
             # Calculate the difference between the count of the
             # factor in the factorisation and the count of the
             # factor in current number prime factorisation
-            factor_count_diff = prime_factors.count(
-                factor) - num_divisors.count(factor)
+            factor_count_diff = prime_factors.count(factor) - num_divisors.count(factor)
             # If the difference is greater than 0...
             # In other words, the number is currently indivisible
             # by the factor in the divisor
-            if (factor_count_diff > 0):
+            if factor_count_diff > 0:
                 # Add the factor as much as the difference
                 num_divisors.extend([factor] * factor_count_diff)
 
