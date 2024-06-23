@@ -199,3 +199,11 @@ def list_proper_divisors(n):
         factors_list.append(factor)
 
     return set(sorted(factors_list))
+
+def order(a, n):
+  p = 0
+  while True:
+    p += 1
+    r = (n ** p) % a
+    if r == 1:
+      return p
