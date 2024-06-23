@@ -39,7 +39,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 23](https://projecteuler.net/problem=23)|Non-Abundant Sums|✅|
 |[Problem 24](https://projecteuler.net/problem=24)|Lexicographic Permutations|✅|
 |[Problem 25](https://projecteuler.net/problem=25)|$1000$-digit Fibonacci Number|✅|
-|[Problem 26](https://projecteuler.net/problem=26)|Reciprocal Cycles|❌|
+|[Problem 26](https://projecteuler.net/problem=26)|Reciprocal Cycles|✅|
 |[Problem 27](https://projecteuler.net/problem=27)|Quadratic Primes|✅|
 |[Problem 28](https://projecteuler.net/problem=28)|Number Spiral Diagonals|✅|
 |[Problem 29](https://projecteuler.net/problem=29)|Distinct Powers|✅|
@@ -903,4 +903,11 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 887](https://projecteuler.net/problem=887)|Bounded Binary Search|❌|
 |[Problem 888](https://projecteuler.net/problem=888)|1249 Nim|❌|
 |[Problem 889](https://projecteuler.net/problem=889)|Rational Blancmange|❌|
+|[Problem 890](https://projecteuler.net/problem=890)|Binary Partitions|❌|
+|[Problem 891](https://projecteuler.net/problem=891)|Ambiguous Clock|❌|
+|[Problem 892](https://projecteuler.net/problem=892)|Zebra Circles|❌|
+|[Problem 893](https://projecteuler.net/problem=893)|Matchsticks|❌|
+|[Problem 894](https://projecteuler.net/problem=894)|Spiral of Circles|❌|
+|[Problem 895](https://projecteuler.net/problem=895)|Gold &amp; Silver Coin Game II|❌|
+|[Problem 896](https://projecteuler.net/problem=896)|Divisible Ranges|❌|
 
