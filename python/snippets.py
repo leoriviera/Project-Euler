@@ -1,8 +1,10 @@
-from random import randrange
+from random import randrange, seed
 from math import gcd
 from collections import Counter
 from itertools import chain, repeat, count, islice
 from functools import reduce
+
+seed(0)
 
 
 # Code for repeat_chain, unique_combinations_from_value_counts, unique_combinations from https://stackoverflow.com/a/46623112
@@ -200,10 +202,11 @@ def list_proper_divisors(n):
 
     return set(sorted(factors_list))
 
+
 def order(a, n):
-  p = 0
-  while True:
-    p += 1
-    r = (n ** p) % a
-    if r == 1:
-      return p
+    p = 0
+    while True:
+        p += 1
+        r = (n**p) % a
+        if r == 1:
+            return p
