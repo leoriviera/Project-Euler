@@ -50,7 +50,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 34](https://projecteuler.net/problem=34)|Digit Factorials|✅|
 |[Problem 35](https://projecteuler.net/problem=35)|Circular Primes|✅|
 |[Problem 36](https://projecteuler.net/problem=36)|Double-base Palindromes|✅|
-|[Problem 37](https://projecteuler.net/problem=37)|Truncatable Primes|❌|
+|[Problem 37](https://projecteuler.net/problem=37)|Truncatable Primes|✅|
 |[Problem 38](https://projecteuler.net/problem=38)|Pandigital Multiples|❌|
 |[Problem 39](https://projecteuler.net/problem=39)|Integer Right Triangles|✅|
 |[Problem 40](https://projecteuler.net/problem=40)|Champernowne's Constant|✅|
