@@ -47,7 +47,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 31](https://projecteuler.net/problem=31)|Coin Sums|✅|
 |[Problem 32](https://projecteuler.net/problem=32)|Pandigital Products|❌|
 |[Problem 33](https://projecteuler.net/problem=33)|Digit Cancelling Fractions|✅|
-|[Problem 34](https://projecteuler.net/problem=34)|Digit Factorials|❌|
+|[Problem 34](https://projecteuler.net/problem=34)|Digit Factorials|✅|
 |[Problem 35](https://projecteuler.net/problem=35)|Circular Primes|✅|
 |[Problem 36](https://projecteuler.net/problem=36)|Double-base Palindromes|✅|
 |[Problem 37](https://projecteuler.net/problem=37)|Truncatable Primes|❌|
