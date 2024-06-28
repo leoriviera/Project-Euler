@@ -70,7 +70,7 @@ This table contains a list of all the problems on Project Euler, as well as the 
 |[Problem 54](https://projecteuler.net/problem=54)|Poker Hands|❌|
 |[Problem 55](https://projecteuler.net/problem=55)|Lychrel Numbers|✅|
 |[Problem 56](https://projecteuler.net/problem=56)|Powerful Digit Sum|✅|
-|[Problem 57](https://projecteuler.net/problem=57)|Square Root Convergents|❌|
+|[Problem 57](https://projecteuler.net/problem=57)|Square Root Convergents|✅|
 |[Problem 58](https://projecteuler.net/problem=58)|Spiral Primes|✅|
 |[Problem 59](https://projecteuler.net/problem=59)|XOR Decryption|✅|
 |[Problem 60](https://projecteuler.net/problem=60)|Prime Pair Sets|❌|
