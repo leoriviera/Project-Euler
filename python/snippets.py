@@ -210,3 +210,21 @@ def order(a, n):
         r = (n**p) % a
         if r == 1:
             return p
+
+
+def sieve_primes(n):
+    sieve = [None] * (n + 1)
+
+    for i in range(2, n):
+        # False == None evaluates to True
+        # Check if number has been sieved (i.e is False)
+        if sieve[i] is False and sieve[i] is not None:
+            continue
+
+        if is_prime(i):
+            sieve[i] = True
+
+            for j in range(2 * i, n + 1, i):
+                sieve[j] = False
+
+    return list(map(lambda p: p[0], filter(lambda p: p[1] == True, enumerate(sieve))))

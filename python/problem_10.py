@@ -1,11 +1,11 @@
 # Solved correctly
-from snippets import is_prime
+from snippets import sieve_primes
 
 
 def problem_10():
     "Find the sum of all the primes below two million."
 
-    prime_sum = 2 + sum(filter(is_prime, range(3, 2_000_000, 2)))
+    prime_sum = sum(sieve_primes(2_000_000))
     return prime_sum
 
 
