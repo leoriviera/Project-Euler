@@ -146,6 +146,9 @@ def divisor_count(n):
     # Calculate the number of divisors for an integer, n, using prime factorisation
 
     divisor_count = 1
+    if n == 1:
+        return 1
+
     # If n is prime, return 2
     if is_prime(n):
         return 2
