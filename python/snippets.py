@@ -95,6 +95,8 @@ def is_prime(n):
 
 def calculate_smallest_factor(n):
     # Pollard rho Factorisation method adapted from the article at http://mathworld.wolfram.com/PollardRhoFactorizationMethod.html
+    if n == 1:
+        return 1
     if n % 2 == 0:
         return 2
     if is_prime(n):
