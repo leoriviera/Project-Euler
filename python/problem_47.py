@@ -1,8 +1,6 @@
 # Solved successfully
-import random
-import math
 from functools import reduce
-from snippets import is_prime, list_prime_factors
+from snippets import list_prime_factors
 
 
 def problem_47():
